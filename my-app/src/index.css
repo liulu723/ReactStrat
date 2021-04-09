@@ -48,3 +48,18 @@ ol, ul {
 .game-info {
   margin-left: 20px;
 }
+.tabList{
+  display: flex;
+}
+ul{
+  padding-left: 0;
+}
+li{
+  list-style: none;
+  cursor: pointer;
+  padding: 4px 10px;
+}
+.selectedDemo{
+  background-color: red;
+  color: white;
+}
